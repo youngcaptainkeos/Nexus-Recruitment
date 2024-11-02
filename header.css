@@ -1,0 +1,114 @@
+.header{
+    height: 60px;
+    top: 0;
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid #2600ff;
+    z-index: 10;
+
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.center-section {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 0px;
+}
+
+
+.right-section{
+    display: flex;
+    width: 180px;
+    align-items: center;    
+}
+
+.Header-Button {
+    color: #e0e0e0;
+    background-color: transparent; 
+    border: 2px solid rgba(75, 0, 110, 0.8);
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Header-Button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(120deg, #4b006e, #1a0033, #001f17);
+    transition: all 0.3s ease;
+    z-index: -1;
+}
+
+.Header-Button:hover::before {
+    left: 0;
+}
+
+.Header-Button:hover {
+    color: #ffffff; 
+    box-shadow: 0 0 15px #4b006e, 0 0 30px #1a0033;
+    border-color: #ffffff;
+}
+
+.Header-Button:active {
+    transform: scale(0.95); 
+}
+
+.instagram {
+    background-color: transparent;
+    border: none; 
+    padding: 0; 
+
+.instagram-logo {
+    display: block; 
+    height: 40px; 
+    opacity: 0.7;
+    transition: opacity 0.3s ease; 
+}
+
+.instagram-logo:hover {
+    opacity: 1;
+}
+
+
+p{
+    color: #e0e0e0;;
+    padding: 10px;
+    align-content: center;
+}
+
+.nexus-logo{
+    width: 50px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+

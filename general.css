@@ -1,0 +1,9 @@
+p{
+    font-family: Itim,Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: radial-gradient(circle at center, #4b006e, #1a0033 40%, #001f17 80%);
+    font-family: Itim,Arial, Helvetica, sans-serif;
+    margin: 0;
+}
